@@ -1,2 +1,0 @@
-# unilut.github.io
-blog
