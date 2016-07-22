@@ -19,6 +19,7 @@ tags:
 由于市场对实时性、3D高清图像的无限制需求的驱动，可编程的GPU(Graphic Processor Unit)已经发展成为一个高度并行的、多线程、多core的处理器。拥有大计算功率和高网络带宽。如下图所示：
 
 图1对比了cpu和GPU每秒的浮点运算，图2对比了cpu和GPU的网络带宽。
+<!--more-->
 
 ![Figure 1](http://docs.nvidia.com/cuda/cuda-c-programming-guide/graphics/floating-point-operations-per-second.png)
 
