@@ -3,14 +3,33 @@
 <head>
   <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
   
-  <title>Hexo</title>
+  <title>GPU学习 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://unilut.github.io/index.html">
+  <meta name="description" content="实验环境：系统是Ubuntu，cuda的版本是7.5。
+具体怎么搭建还是参考官方文档documents
+1、Introduction1、1 From Graphics Processing to General Purpose Parallel Computing由于市场对实时性、3D高清图像的无限制需求的驱动，可编程的GPU(Graphic Processor Unit)已经发展成为一个高度并行">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GPU学习">
+<meta property="og:url" content="http://unilut.github.io/2016/07/22/GPU学习-1/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="实验环境：系统是Ubuntu，cuda的版本是7.5。
+具体怎么搭建还是参考官方文档documents
+1、Introduction1、1 From Graphics Processing to General Purpose Parallel Computing由于市场对实时性、3D高清图像的无限制需求的驱动，可编程的GPU(Graphic Processor Unit)已经发展成为一个高度并行">
+<meta property="og:image" content="http://docs.nvidia.com/cuda/cuda-c-programming-guide/graphics/floating-point-operations-per-second.png">
+<meta property="og:image" content="http://docs.nvidia.com/cuda/cuda-c-programming-guide/graphics/memory-bandwidth.png">
+<meta property="og:image" content="http://docs.nvidia.com/cuda/cuda-c-programming-guide/graphics/gpu-devotes-more-transistors-to-data-processing.png">
+<meta property="og:image" content="http://docs.nvidia.com/cuda/cuda-c-programming-guide/graphics/gpu-computing-applications.png">
+<meta property="og:image" content="http://docs.nvidia.com/cuda/cuda-c-programming-guide/graphics/automatic-scalability.png">
+<meta property="og:image" content="http://docs.nvidia.com/cuda/cuda-c-programming-guide/graphics/grid-of-thread-blocks.png">
+<meta property="og:image" content="http://docs.nvidia.com/cuda/cuda-c-programming-guide/graphics/memory-hierarchy.png">
+<meta property="og:image" content="http://docs.nvidia.com/cuda/cuda-c-programming-guide/graphics/heterogeneous-programming.png">
+<meta property="og:updated_time" content="2016-07-22T09:16:48.493Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="GPU学习">
+<meta name="twitter:description" content="实验环境：系统是Ubuntu，cuda的版本是7.5。
+具体怎么搭建还是参考官方文档documents
+1、Introduction1、1 From Graphics Processing to General Purpose Parallel Computing由于市场对实时性、3D高清图像的无限制需求的驱动，可编程的GPU(Graphic Processor Unit)已经发展成为一个高度并行">
+<meta name="twitter:image" content="http://docs.nvidia.com/cuda/cuda-c-programming-guide/graphics/floating-point-operations-per-second.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -59,9 +78,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-GPU学习-1" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-GPU学习-1" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/07/22/GPU学习-1/" class="article-date">
   <time datetime="2016-07-22T08:51:59.000Z" itemprop="datePublished">2016-07-22</time>
@@ -78,8 +95,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/22/GPU学习-1/">GPU学习</a>
+    <h1 class="article-title" itemprop="name">
+      GPU学习
     </h1>
   
 
@@ -213,99 +230,19 @@ __global__ void MatAdd(float A[N][N], float B[N][N],
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-java/java" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/07/22/java/java/" class="article-date">
-  <time datetime="2016-07-22T02:51:59.000Z" itemprop="datePublished">2016-07-22</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/java/">java</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/22/java/java/">java-test</a>
-    </h1>
+    <a href="/2016/07/22/java/java/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Ouder</strong>
+      <div class="article-nav-title">java-test</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="hello-salut-java"><a href="#hello-salut-java" class="headerlink" title="hello,salut,java."></a>hello,salut,java.</h1><p>Simple inline $a = b + c$.</p>
-<p>This equation <span>$\cos 2\theta = \cos^2 \theta - \sin^2 \theta =  2 \cos^2 \theta - 1$</span><!-- Has MathJax --> is inline.</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://unilut.github.io/2016/07/22/java/java/" data-id="ciqxg6w9e0000rwbepgwzod9i" class="article-share-link">Delen</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/java/">java</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/07/22/hello-world/" class="article-date">
-  <time datetime="2016-07-22T02:00:00.000Z" itemprop="datePublished">2016-07-22</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/22/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://unilut.github.io/2016/07/22/hello-world/" data-id="ciqxg6w9s0005rwbe7t5eumyb" class="article-share-link">Delen</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 </section>
         
@@ -404,23 +341,6 @@ __global__ void MatAdd(float A[N][N], float B[N][N],
 
 <script src="/js/script.js"></script>
 
-  </div><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config("");
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i=0; i < all.length; i += 1) {
-      all[i].SourceElement().parentNode.className += ' has-jax';
-    }
-  });
-</script>
-
-<script type="text/javascript" src="">
-</script>
-<!-- End: Injected MathJax -->
-<!-- hexo-inject:end -->
+  </div><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 </body>
 </html>
